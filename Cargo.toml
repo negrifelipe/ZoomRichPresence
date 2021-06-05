@@ -1,0 +1,10 @@
+[package]
+name = "ZoomRichPresence"
+version = "0.1.0"
+authors = ["Feli <felinegri5@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sysinfo = "0.18.1"
+discord-rpc-client = "^0.2"
+winapi = {version = "0.3", features = ["wincon", "winuser"]}
